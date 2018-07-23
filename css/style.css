@@ -1,0 +1,184 @@
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600 !important;
+	font-family: 'Muli', 'Arial', sans-serif;
+	letter-spacing: 0.05em;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.btn-xl {
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	margin: 0 0.2em;
+	font-size: 0.9rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+}
+
+header.masthead {
+	position: relative;
+	padding-top: 5em;
+	padding-bottom: 5rem;
+	background-image: url('images/feira-de-recrutamento-talento-unicamp-campinas-escura.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
+	color: #fff;
+}
+
+#logo-talento {
+	max-width: 50%;
+}
+
+#logo-mte {
+	max-width: 20%;
+}
+
+
+.organizacao {
+	padding-top: 2.5em;
+}
+
+.por-que-title {
+	padding-bottom: 2em;
+}
+
+.features-icons {
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+}
+
+.features-icons .features-icons-item {
+	max-width: 16rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+	height: 5rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+	font-size: 3rem;
+}
+
+.logo-empresa {
+	max-width: 70%;
+	padding: 1em 0;
+	filter: gray; /* IE5+ */
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.logo-empresa:hover {
+	filter: none;
+	-webkit-filter: grayscale(0);
+}
+
+.empresas-title {
+	padding: 1.5em 0;
+}
+
+.facebook a,
+.instagram a,
+.linkedin a,
+.youtube a{
+	color: #fff;
+	padding: 1em;
+	font-size: 2em;
+}
+
+.facebook a,
+.instagram a,
+.linkedin a,
+.youtube a:hover{
+	text-decoration: none;
+}
+
+footer {
+	padding-bottom: 0;
+}
+
+
+@media only screen and (max-width : 980px) {
+	.logo-empresa {
+		max-width: 60%;
+		filter: none;
+		padding: 1em 0;
+	}
+}
+
+
+@media only screen and (max-width : 600px) {
+	h1,
+	h2,
+	h3 {
+		padding: 0.1em 0;
+	}
+
+	header.masthead {
+		padding-top: 2em;
+	}
+
+	#logo-talento {
+		max-width: 80%;
+		margin-bottom: 2em;
+	}
+
+	.btn {
+		margin: 0 0.2em;
+	}
+
+	#logo-mte {
+		max-width: 60%;
+	}
+
+	.organizacao {
+		padding-top: 2em;
+	}
+
+	.por-que-title {
+		padding-bottom: 0;
+	}
+
+	.features-icons {
+		padding-top: 2rem;
+		padding-bottom: 3rem;
+	}
+
+	.features-icons .features-icons-item {
+		max-width: 20rem;
+	}
+
+	.features-icons .features-icons-item .features-icons-icon {
+		height: 7rem;
+	}
+
+	.features-icons .features-icons-item .features-icons-icon i {
+		font-size: 3.5rem;
+	}
+
+	.logo-empresa {
+		max-width: 70%;
+		filter: none;
+	}
+
+	.facebook a,
+	.instagram a,
+	.linkedin a,
+	.youtube a{
+		padding: 0;
+		font-size: 1.5em;
+	}
+
+
+}
