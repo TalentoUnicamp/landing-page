@@ -1,4 +1,7 @@
-body {
+a {
+	display:flex;
+	align-items:center;
+
 }
 
 h1,
@@ -13,7 +16,7 @@ h6 {
 }
 
 img {
-	vertical-align: middle;
+	vertical-align: super;
 }
 
 .btn-xl {
