@@ -1,7 +1,6 @@
-a {
-	display:flex;
-	align-items:center;
-
+.col-lg-2 .col-md-4 .col-6 {
+	display: block;
+	vertical-align: middle;
 }
 
 h1,
