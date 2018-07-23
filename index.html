@@ -293,5 +293,24 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="172250516191664"
+  theme_color="#bb1212"
+  logged_in_greeting="Olá! Podemos te ajudar em alguma coisa?"
+  logged_out_greeting="Olá! Podemos te ajudar em alguma coisa?">
+</div>
+
 </body>
 </html>
