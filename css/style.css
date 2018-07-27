@@ -94,6 +94,12 @@ header.masthead {
 	padding: 1.5em 0;
 }
 
+.faq {
+	margin-top: 5em;
+	margin-bottom: 5em;
+
+}
+
 .facebook a,
 .instagram a,
 .linkedin a,
@@ -120,6 +126,11 @@ footer {
 		max-width: 60%;
 		filter: none;
 		padding: 1em 0;
+	}
+
+	button {
+		white-space: normal !important;
+		word-wrap: break-word;
 	}
 }
 

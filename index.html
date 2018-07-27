@@ -13,17 +13,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="css/images/talentinho.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <title>Talento 2018</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122824976-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-122824976-2');
+  gtag('config', 'UA-122824976-2');
   </script>
   <meta name="google-site-verification" content="rPJNjj7kwUcGAvfUj5m6Y0laPx7sZOb1GIniODuWUB0" />
 
@@ -266,6 +267,88 @@
   </section>
 
 
+  <section class="text-center faq">
+    <div class="container">
+      <h3 class="mb-5">Perguntas Frequentes</h3>
+      <div id="accordion">
+        <div class="card mb-1">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Quando e onde é a Talento?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body text-left">
+              A Talento 2018 ocorrerá no dia <strong>14 de agosto</strong>, das <strong>9h às 19h</strong>, no <strong>Ginásio Multidisciplinar da Unicamp (campus Campinas)</strong>.
+              O endereço do ginásio é: R. Elis Regina, 131 – Cidade Universitária, Campinas – SP (próximo ao RU – Restaurante Universitário).
+              As <strong>linhas de ônibus</strong> que passam pela Unicamp podem ser encontradas <a href="http://www.ige.unicamp.br/react/content/transporte-em-campinas" target="_blank">aqui</a>.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-1">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-danger" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Pessoas de fora da Unicamp também podem participar?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body text-left">
+              <strong>Com certeza</strong>. Não há absolutamente nenhuma restrição de faculdade, curso ou nível de ensino na Talento. Todos serão muito bem-vindos na feira.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-1">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-danger" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Preciso pagar pra participar da Talento?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body text-left">
+              Não. A entrada da Talento é <strong>totalmente gratuita</strong>.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-1">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-danger" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Preciso levar alguma coisa no dia?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body text-left">
+              É imprescindível que você esteja com o seu <strong>QR Code</strong> em mãos (se estiver sem internet pode tirar print ou levar impresso) para que possamos fazer seu check-in e identificá-lo dentro da feira. É recomendável levar um documento pessoal para identificação e cópias do seu currículo pra entregar nos stands.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-1">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-danger" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tenho interesse em participar das atividades do dia, onde me inscrevo?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body text-left">
+              Em breve lançaremos as inscrições de <strong>pitchs</strong>, <strong>mesas redondas</strong>, <strong>talks</strong> e <strong>análise de currículo</strong> na plataforma de inscrição. Então fique atento(a)!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <footer class="py-5 bg-dark">
     <div class="container">
       <div class="row">
@@ -328,6 +411,12 @@
   logged_in_greeting="Olá! Podemos te ajudar em alguma coisa?"
   logged_out_greeting="Olá! Podemos te ajudar em alguma coisa?">
 </div>
+
+<script>
+// $('[data-toggle="collapse"]').click(function() {
+//   $('.collapse.in').collapse('hide')
+// });
+</script>
 
 </body>
 </html>
